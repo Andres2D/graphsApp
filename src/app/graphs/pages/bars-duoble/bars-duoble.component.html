@@ -1,0 +1,16 @@
+<h1>Double Bars</h1>
+<hr>
+<div class="row">
+    <div class="col-md-6">
+        <app-bar-graph [horizontal]="true"
+                        [barChartData]="productoData"
+                        [barChartLabels]="proveedoresLabels">
+        </app-bar-graph>
+    </div>
+    <div class="col-md-6">
+        <app-bar-graph [horizontal]="false"
+                        [barChartData]="proveedoresData"
+                        [barChartLabels]="proveedoresLabels">
+                    </app-bar-graph>
+    </div>
+</div>
